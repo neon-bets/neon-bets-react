@@ -1,0 +1,29 @@
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.logoOne {
+  margin: 0;
+  color: #2dc7f0;
+  padding-right: 50px;
+}
+
+.logoTwo {
+  margin: 0;
+  color: #f53aba;
+  padding-left: 30px;
+}
+
+.logoContainer h1 {
+  font-family: "Lazer";
+  transform: rotate(-8deg);
+  font-size: 2em;
+}

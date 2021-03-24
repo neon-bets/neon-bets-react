@@ -1,0 +1,7 @@
+.Nav {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  background-color: #0f020e;
+}

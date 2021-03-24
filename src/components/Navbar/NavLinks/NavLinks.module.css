@@ -1,0 +1,17 @@
+.NavLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.off {
+  cursor: pointer;
+  text-decoration: none;
+  color: #664244;
+  font-family: "Neon";
+  font-size: 1.8em;
+  text-decoration: none;
+  margin-top: 30px;
+  font-weight: bold;
+}
