@@ -14,23 +14,23 @@ const NavLinks = () => {
         Betting Room
       </NavLink>
 
-      <NavLink to="pinks" activeStyle={on} className={classes.off}>
+      <NavLink to="/pinks" activeStyle={on} className={classes.off}>
         NFT Pinks
       </NavLink>
 
-      <NavLink to="lounge" activeStyle={on} className={classes.off}>
+      <NavLink to="/lounge" activeStyle={on} className={classes.off}>
         Lounge
       </NavLink>
 
-      <NavLink to="gallery" activeStyle={on} className={classes.off}>
+      <NavLink to="/gallery" activeStyle={on} className={classes.off}>
         NFT Gallery
       </NavLink>
 
-      <NavLink to="swap" activeStyle={on} className={classes.off}>
+      <NavLink to="/swap" activeStyle={on} className={classes.off}>
         Chip Swap
       </NavLink>
 
-      <NavLink to="info" activeStyle={on} className={classes.off}>
+      <NavLink to="/info" activeStyle={on} className={classes.off}>
         Info
       </NavLink>
     </nav>

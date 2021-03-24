@@ -9,8 +9,10 @@ function App() {
     <div className="App">
       <Nav />
       <Switch>
+        <Route exact path="/">
+          <Redirect to="/betting" />
+        </Route>
         <Route path="/lounge" component={Lounge} />
-        <Redirect from="/" to="/betting" />
       </Switch>
     </div>
   );
