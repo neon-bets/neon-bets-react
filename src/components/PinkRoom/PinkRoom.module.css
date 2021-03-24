@@ -1,14 +1,14 @@
-.Lounge {
+.PinkRoom {
   margin-left: 300px;
   width: 100%;
   min-height: 100%;
   background-color: #2d2436;
   animation: fadeIn ease 0.5s;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../../assets/images/lounge.jpg");
+    url("../../assets/images/car.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: -190px;
+  background-position: -300px;
 }
 
 @keyframes fadeIn {

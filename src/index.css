@@ -1,6 +1,10 @@
 html,
-body {
+body,
+#root,
+.App {
   height: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 body {
@@ -13,11 +17,8 @@ body {
   height: 100%;
 
   background-color: #354057;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./assets/images/lounge.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 110px;
+
+  background-position: 20px;
 }
 
 code {
