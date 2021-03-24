@@ -1,5 +1,5 @@
 import "./App.css";
-import { Switch, Route } from "react-router-dom";
+import { Switch, Route, Redirect } from "react-router-dom";
 import Nav from "./components/Navbar/Nav";
 
 import Lounge from "./components/Lounge/Lounge";
@@ -8,9 +8,10 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <switch>
+      <Switch>
         <Route path="/lounge" component={Lounge} />
-      </switch>
+        <Redirect from="/" to="/betting" />
+      </Switch>
     </div>
   );
 }
