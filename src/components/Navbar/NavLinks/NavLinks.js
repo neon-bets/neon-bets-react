@@ -4,8 +4,9 @@ import { NavLink } from "react-router-dom";
 
 const NavLinks = () => {
   const on = {
-    color: "red",
+    color: "#f3cda5",
     fontFamily: "Neon",
+    textShadow: "1px 1px 10px #f3cda5",
   };
 
   return (
