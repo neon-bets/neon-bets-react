@@ -2,7 +2,7 @@
   margin-left: 300px;
   width: 100%;
   min-height: 100%;
-  background-color: #2d2436;
+  background-color: #131318;
   animation: fadeIn ease 0.5s;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../../assets/images/lounge.jpg");
@@ -53,5 +53,20 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width: 1000px) {
+  .Lounge {
+    background-position: -150px;
+  }
+}
+
+@media (max-width: 850px) {
+  .Lounge {
+    margin-left: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../../assets/images/lounge.jpg");
+    background-position: -200px;
   }
 }

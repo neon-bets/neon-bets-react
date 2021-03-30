@@ -6,4 +6,14 @@
   background-color: #0f020e;
   background: url("../../assets/images/bricks.png");
   background-size: 100%;
+  display: block;
+}
+
+@media (max-width: 850px) {
+  .Nav {
+    display: none;
+    width: 0;
+    height: 0;
+    background: none;
+  }
 }
